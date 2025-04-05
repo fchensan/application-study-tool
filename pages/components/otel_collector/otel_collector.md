@@ -8,9 +8,9 @@ permalink: /components/otel_collector
 ---
 
 The **OpenTelemetry Collector** is a crucial component of the **Application Study Tool (AST)**, 
-providing a custom distribution designed specifically for monitoring F5 BigIP devices. This collector 
+providing a custom distribution designed specifically for monitoring F5 BIG-IP devices. This collector 
 features a specialized **BigIP Receiver** component, which
-retrieves metric data from the BigIP iControl REST endpoint.
+retrieves metric data from the BIG-IP iControl REST endpoint.
 
 While working towards open sourcing the receiver component, the AST project will maintain a build of the
 collector with the requisite receivers, processors, and exporters needed to collect and send data where

@@ -9,7 +9,7 @@ permalink: /components/prometheus
 
 # Prometheus Integration in Application Study Tool
 
-The **Application Study Tool (AST)** leverages **Prometheus**, a powerful time series database, to collect and visualize metric data from F5 BigIP devices through an OpenTelemetry collector.
+The **Application Study Tool (AST)** leverages **Prometheus**, a powerful time series database, to collect and visualize metric data from F5 BIG-IP devices through an OpenTelemetry collector.
 
 ## Configuration
 
@@ -36,7 +36,7 @@ When scoping out the AST server where your Prometheus instance will run, it's im
 storage and memory requirements, as it is the largest consumer of disk and memory resources in the AST
 project. 
 
-A single modestly sized server can accommodate many BigIP Devices, but exact specs will depend heavily on
+A single modestly sized server can accommodate many BIG-IP Devices, but exact specs will depend heavily on
 how the devices are configured, storage retention settings, etc.
 
 For guidance on instance storage sizing, please review the [Prometheus Storage Sizing Documentation](https://prometheus.io/docs/prometheus/1.8/storage/).

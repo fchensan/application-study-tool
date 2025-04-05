@@ -716,7 +716,7 @@ License status for a bigip module
 
 ### f5.module.provision.generation
 
-Config Generation of the BigIP for this provision.
+Config Generation of the BIG-IP for this provision.
 
 | Unit | Metric Type | Value Type |
 | ---- | ----------- | ---------- |
@@ -6395,7 +6395,7 @@ The total secure handshakes processed.
 
 ### f5.virtual_server.profile.generation
 
-Config Generation of the BigIP profile for this virtualserver.
+Config Generation of the BIG-IP profile for this virtualserver.
 
 | Unit | Metric Type | Value Type |
 | ---- | ----------- | ---------- |
@@ -6445,7 +6445,7 @@ The number of server-side responses in the specified range.
 
 ### f5.virtual_server.profile.info
 
-Info about a BigIP profile for this virtualserver.
+Info about a BIG-IP profile for this virtualserver.
 
 | Unit | Metric Type | Value Type |
 | ---- | ----------- | ---------- |

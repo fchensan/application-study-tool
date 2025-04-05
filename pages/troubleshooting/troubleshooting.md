@@ -140,13 +140,13 @@ starting point. The data in this dashboard is collected through a different mech
 the dashboards.
 
 * If data is present in this dashboard (but no others), it indicates an issue with the collection of data
-from the BigIPs.
+from the BIG-IPs.
 * If no data is present in this dashboard, it indicates a problem with the connection between Prometheus
 and Grafana.
 
 **If Data Is Present**
 
-If data is present here, there's very likely an issue with collection from the BigIPs themselves.
+If data is present here, there's very likely an issue with collection from the BIG-IPs themselves.
 Things to check:
 
 * Is the Otel Collector container running correctly (`docker ps`)
@@ -176,7 +176,7 @@ For other dashboards, ensure that:
 should exist.
 * Check the responses for a specific broken panel by clicking the '3 dot icon' (upper right while 
 hovering) and selecting 'Inspect > Query'
-* Are any queries to the BigIP timing or erroring out? Check the otel collector logs (`docker ps`) and
+* Are any queries to the BIG-IP timing or erroring out? Check the otel collector logs (`docker ps`) and
 the 'BigIP Collector Stats' dashboard at the top level of the Dashboards section in Grafana 
 
 ## GTM, DNS, ASM, APM, Firewall, NAT Metrics Not Loading
@@ -186,7 +186,7 @@ Metrics for GTM, DNS, ASM, APM, Firewall, NAT are disabled by default. See
 
 ## Max API Tokens Reached For User
 
-Several BigIP Bugs have been identified which can result in maximum tokens issued errors:
+Several BIG-IP Bugs have been identified which can result in maximum tokens issued errors:
 
 * [ID1787517](https://cdn.f5.com/product/bugtracker/ID1787517.html)
 * [ID1103369](https://cdn.f5.com/product/bugtracker/ID1103369.html)

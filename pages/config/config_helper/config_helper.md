@@ -25,12 +25,12 @@ The config helper script must run after any changes to the default or device spe
 and the otel container restarted before changes will take effect.
 
 ## Before You Start
-The default settings file reduces the amount of boilerplate that must be configured for each BigIP device
+The default settings file reduces the amount of boilerplate that must be configured for each BIG-IP device
 to be monitored.
 
 * [Configuration >	Configuration Helper (Recommended) > Default Configuration]({{ site.url }}{{ site.baseurl }}/config/config_helper/config_defaults.html)
 
-Settings without a logical default (e.g. url of the bigIP device) or wishing to override the default can
+Settings without a logical default (e.g. url of the BIG-IP device) or wishing to override the default can
 be set as described in:
 
 * [Configuration >	Configuration Helper (Recommended) > Device Configuration]({{ site.url }}{{ site.baseurl }}/config/config_helper/config_receivers.html)

@@ -20,7 +20,7 @@ The settings in this file are merged with the defaults outlined
 in [Configuration >	Configuration Helper (Recommended) > Default Configuration]({{ site.url }}{{ site.baseurl }}/config/config_helper/config_defaults.html), with the more specific settings in this file taking precedence.
 
 The following constraints apply:
-* There must be a top level entry for each BigIP Device you wish to monitor.
+* There must be a top level entry for each BIG-IP Device you wish to monitor.
 * The top level key must start with `bigip/`, and be unique (recommend hostname or just incrementing int)
 * Each entry must have at minimum the `endpoint` entry containing the url of the device to scrape.
 

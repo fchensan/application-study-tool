@@ -26,7 +26,7 @@ For additional detail on configuration management options in the post v0.6.0 sch
 
 ## Migrating From pre v0.6.0 Configs
 There's a python script in /src/config_helper.py which will convert the original big-ips.json schema
-into the new management format. Assuming you have an existing list of configured BigIPs in
+into the new management format. Assuming you have an existing list of configured BIG-IPs in
 /config/big-ips.json, migration is a 2 step process:
 
 0. Backup the existing /config/big-ips.json file.
@@ -41,7 +41,7 @@ The default settings in [/config/ast_defaults.yaml](https://github.com/f5devcent
 
 You can reduce the amount of repetitive yaml in the output by making sure these values match
 your common values (e.g. if you use the username: "telemetry", updating that value in the defaults
-file will prevent each per-bigip config stanza from containing that value to overide the "admin"
+file will prevent each per-BIG-IP config stanza from containing that value to overide the "admin"
 value).
 
 The script will intelligently merge values that are logically equivalent but not identical.

@@ -7,7 +7,7 @@ grand_parent: Components
 ---
 # Dashboard Examples
 
-Application Study Tool includes a variety of starter dashboards to help monitor your BigIP devices.
+Application Study Tool includes a variety of starter dashboards to help monitor your BIG-IP devices.
 These dashboards are built in Grafana and can be customized to suit your unique organizational needs.
 
 1. TOC
@@ -30,7 +30,7 @@ You can update the Grafana user/pass by changing the values of the `GF_SECURITY_
 The fleet dashboards provide top level information of your environment
 
 #### Inventory
-*The inventory dashboard allows you to view the differences between BigIP devices in your inventory.*
+*The inventory dashboard allows you to view the differences between BIG-IP devices in your inventory.*
 ![](../../assets/BigIP-Fleet-Inventory.png)
 
 #### Device Utilization
@@ -57,12 +57,12 @@ The device dashboards provide more grainular information about how the device is
 *The Top N dashboard provides statistical highlights by presenting stats in a Top N, by default N is set to 10 this can be changed at top of the dashboard*
 ![](../../assets/BigIP-Device-TopN.png)
 #### Pools
-*Here you can view stats pertaining to Pools and Pool members on a BigIP.*
+*Here you can view stats pertaining to Pools and Pool members on a BIG-IP.*
 ![](../../assets/BigIP-Device-Pools.png)
 
 
 #### Virtual Servers
-*Here you can view stats pertaining to all the virtual servers on a BigIP.*
+*Here you can view stats pertaining to all the virtual servers on a BIG-IP.*
 ![](../../assets/BigIP-Device-Virtual-Server.png)
 
 #### iRules

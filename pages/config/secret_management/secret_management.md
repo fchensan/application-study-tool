@@ -5,9 +5,9 @@ parent: Configuration Management
 nav_order: 4
 ---
 
-# BigIP Device Secrets Management
+# BIG-IP Device Secrets Management
 
-Application Study Tool's Opentelemetry Collector requires credentials to access the BigIP devices
+Application Study Tool's Opentelemetry Collector requires credentials to access the BIG-IP devices
 being monitored. The default configuration (management via environment variable file on disk)
 is optimized for quick proof of concept style deployment, and is unlikely to meet the
 "production" level use case requirements in many organizations.

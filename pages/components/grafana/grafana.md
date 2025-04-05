@@ -13,7 +13,7 @@ The Application Study Tool leverages Grafana for visualization of all collected 
 prometheus.
 
 The instance is pre-configured with dashboards built by the AST team to provide insights into the fleet
-of BigIP devices being monitored. Grafana is a flexible visualization tool, and AST users are encouraged
+of BIG-IP devices being monitored. Grafana is a flexible visualization tool, and AST users are encouraged
 to customize the 'out of the box' dashboards or build new views around the AST data that suit your 
 specific organization's workflows.
 

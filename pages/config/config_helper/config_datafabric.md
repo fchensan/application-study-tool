@@ -12,7 +12,7 @@ nav_order: 3
 {:toc}
 
 The application study tool can be configured to periodically (every 5 minutes) export a snapshot of your
-BigIP metrics to F5. Contact your F5 Sales Representative for a "Sensor ID" (a unique string used to 
+BIG-IP metrics to F5. Contact your F5 Sales Representative for a "Sensor ID" (a unique string used to 
 associate your metrics with your Organization) and a "Sensor Secret Token" (used to authenticate to the 
 F5 Datafabric as an authorized data sender for your Org).
 
